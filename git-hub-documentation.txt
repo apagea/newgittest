@@ -1,0 +1,38 @@
+Two people making changes to the same file  -  What do you do??????
+Need to be able to work on the same file at the same time. 
+Will have to manually merge changes when you both change the same line. Still need good communication.
+
+
+Five commands:
+cd    // change directory
+cd .. // goes up a directory
+
+Get the files on my laptop:
+git clone https://github.com/apagea/newgittest.git
+
+ls // listing of all files in directory
+ls-l // gives a formatted list - size of files and such
+
+pwd // tells me where I am
+	-- had to get to my folder: cd new(hit tab to get name of the repo)
+	
+git status // show us what is different btw us and what is in github 
+
+git add . // any new changes or files by name .ie git add index.html
+
+git commit -m "add a message"   // giving it a message and the message is in quotes.
+
+git push 
+git push --all
+
+git pull // pull down any changes. 
+
+
+
+---------------------------------------
+
+For the PROXY
+git config --global http.proxy http://proxy.nas.medcity.net:80
+git config --global https.proxy https://proxy.nas.medcity.net:80 (didn't do this one)
+
+
