@@ -27,7 +27,13 @@ git push --all
 
 git pull // pull down any changes. 
 
+---------------------------------------
 
+merge conflict:
+document looks freaky. you have to choose the better one. 
+	git add a
+	git commit
+continuing merge of master
 
 ---------------------------------------
 
